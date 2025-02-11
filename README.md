@@ -6,4 +6,6 @@ A better solution would probably be a standalone app, something like [Latest](ht
 
 If you want to help me test, let me know. One way to help is by forking this and adding an `lbaction` bundle to this repo.
 
+[You can find the new action in my main repo.](https://github.com/Ptujec/LaunchBar/tree/master/LB-Repo-Updates)
+
 Thanks!

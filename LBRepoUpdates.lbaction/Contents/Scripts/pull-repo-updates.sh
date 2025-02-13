@@ -19,10 +19,10 @@ git stash push --include-untracked --message "LaunchBar: Auto-stashed changes be
 # Pull updates from the remote repository
 if git pull; then
   # Check for either new/modified .lbaction bundles or changes within Contents directories
-  action_changes=$(git diff --name-only $before_pull HEAD -- "*.lbaction" "**/Contents/")
+  action_changes=$(git diff --name-only $before_pull HEAD -- "*.lbaction/**" "*.lbaction/Contents/*")
   
   if [ -n "$action_changes" ]; then
-    echo "{ \"status\": \"success\", \"hasActionUpdates\": true }"
+    echo "{ \"status\": \"success\", \"hasActionUpdates\": true, \"changes\": \"$action_changes\" }"
   else
     echo "{ \"status\": \"success\", \"hasActionUpdates\": false }"
   fi

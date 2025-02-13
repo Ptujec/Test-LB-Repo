@@ -11,3 +11,7 @@ This should make keeping up with updates for actions that are shared in GitHub r
 ## Download
 
 [Click here](https://github.com/Ptujec/LaunchBar/archive/refs/heads/master.zip) to download this LaunchBar action along with all the others. Or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository.
+
+## Testing
+
+I'm just doing testing

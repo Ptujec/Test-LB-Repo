@@ -5,7 +5,7 @@
 	<key>CFBundleIconFile</key>
 	<string>actionIcon.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>ptujec.LaunchBar.action.LBRepoUpdates</string>
+	<string>ptujec.LaunchBar.action.LBRepoUpdatesTest</string>
 	<key>CFBundleName</key>
 	<string>LaunchBar Repo Updates</string>
 	<key>CFBundleVersion</key>
